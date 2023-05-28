@@ -19,3 +19,15 @@ p {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.close-icon {
+    width: 30px;
+}
+
+.close {
+    position: inherit;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background: none;
+}
