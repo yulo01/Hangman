@@ -1,0 +1,89 @@
+.background {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.Home {
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f32d2d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.button:hover {
+    background-color: #bb0404;
+}
+
+.button:active {
+    background-color: #db5e5e;
+}
+
+.header {
+    font-size: 70px;
+    font-weight: bold;
+    color: #1a0202;
+}
+
+.home-inner {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rules-btn {
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #22cc0b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.rules-btn:hover {
+    background-color: #159204;
+}
+
+.rules-btn:active {
+    background-color: #51e03e;
+}
+
+.buttons {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
