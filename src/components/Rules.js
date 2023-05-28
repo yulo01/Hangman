@@ -1,23 +1,11 @@
-import React from 'react'
-import "./rules.css"
-import closeIcon from '../assets/close-icon.png'
-import { useState} from 'react'
+import React from 'react';
+import "./rules.css";
+import closeIcon from '../assets/close-icon.png';
 
-export default function Rules() {
-  
-  const [closeRules, setCloseRules] = useState(true)
-
-  const showAndHide = () => {
-    setCloseRules(false)
-  }
-
-  if (!closeRules) {
-    return null; 
-  }
-
+export default function Rules({ onClose }) {
   return (
-    <div className={`Rules ${closeRules ? '' : 'hidden'}`}>
-      <button onClick={showAndHide} className="close">
+    <div className="Rules">
+      <button onClick={onClose} className="close">
         <img src={closeIcon} alt="close-icon" className='close-icon' />
       </button>
       <div>
@@ -25,7 +13,6 @@ export default function Rules() {
         <p>ასოს შეშლისას, წაგებას ერთი ნაბიჯით უახლოვდები</p>
         <p>არ დანებდე და აუცილებლად გაიმარჯვებ :)</p>
       </div>
-  
     </div>
-  )
+  );
 }
