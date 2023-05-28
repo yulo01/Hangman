@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chamoxrchobana/static/css/main.073c9b0a.css",
+    "main.js": "/chamoxrchobana/static/js/main.cb2440d3.js",
+    "static/js/787.0c3f432a.chunk.js": "/chamoxrchobana/static/js/787.0c3f432a.chunk.js",
+    "index.html": "/chamoxrchobana/index.html",
+    "main.073c9b0a.css.map": "/chamoxrchobana/static/css/main.073c9b0a.css.map",
+    "main.cb2440d3.js.map": "/chamoxrchobana/static/js/main.cb2440d3.js.map",
+    "787.0c3f432a.chunk.js.map": "/chamoxrchobana/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.cb2440d3.js"
+  ]
+}
