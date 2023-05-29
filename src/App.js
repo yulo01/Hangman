@@ -5,7 +5,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Router>
         <Routes>
           <Route path="/chamoxrchobana" element={<Home />} />
