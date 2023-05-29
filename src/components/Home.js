@@ -21,7 +21,7 @@ export default function Home() {
         <div className="home-inner">
           <h1 className='header'>ჩამოხრჩობანა</h1>
           {showRules && <Rules onClose={toggleRules} />}
-          <div className="buttons">
+          <div className="home-buttons">
             <div className='change-component'>
               <Link to="/Game">
                 <button className='button'>დაიწყე თამაში</button>

@@ -18,7 +18,7 @@
 }
 
 .buttons {
-    min-width: 900px;
+    max-width: 1000px;
     height: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -29,12 +29,25 @@
 .button-aso {
     font-size: 36px;
     margin: 10px;
-    width: 60px;
-    height: 70px;
+    width: 70px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: rgb(224, 231, 231);
+    border-radius: 12px;
+    border: none;
+    transition: all .1s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-aso:hover {
+    background-color: rgb(175, 179, 179);
+}
+
+.button-aso:active {
+    background-color: rgb(233, 229, 229);
 }
 
 .button {
@@ -56,10 +69,30 @@
     margin-bottom: 60px;
 }
 
+.change-component {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
 .button:hover {
     background-color: #bb0404;
 }
 
 .button:active {
     background-color: #db5e5e;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////// word */
+
+.word-guessing {
+    font-size: 60px;
+}
+
+.hint-guessing {
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 30px;
+    text-align: center;
+    margin-left: 25px;
 }
