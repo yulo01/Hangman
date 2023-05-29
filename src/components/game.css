@@ -18,8 +18,8 @@
 }
 
 .buttons {
-    min-width: 600px;
-    height: 500px;
+    min-width: 900px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -52,6 +52,8 @@
     border-radius: 8px;
     cursor: pointer;
     transition: all .2s;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .button:hover {
