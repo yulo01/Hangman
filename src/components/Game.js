@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import gameBackground from "../assets/game-background.jpg";
 import './game.css';
+import Man from './Man';
+import Lost from './Lost'
+
+
 
 function Game() {
   const [word, setWord] = useState('ბათუმი');
@@ -43,6 +47,8 @@ function Game() {
       </div>
 
       <div className="Game">
+        <Man incorrectGuesses={incorrectGuesses} />
+
         <div className="hint">
           <p className="hint-guessing">ქალაქი</p>
         </div>
@@ -50,6 +56,7 @@ function Game() {
         <div className="word">{renderWord()}</div>
 
         <div className="buttons">
+        
           <button className="button-aso" onClick={() => handleGuess('ა')}>
             ა
           </button>
@@ -150,7 +157,6 @@ function Game() {
           <button className="button-aso" onClick={() => handleGuess('ჰ')}>
             ჰ
           </button>
-          
         </div>
 
         <div className="change-component">

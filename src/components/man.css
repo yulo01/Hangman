@@ -1,0 +1,32 @@
+.man {
+    position: relative;
+    width: 100px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: black;
+    transition: height 0.5s;
+}
+
+.circle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    transition: opacity 0.5s;
+}
+
+.drawn {
+    height: 100%;
+    opacity: 1;
+}

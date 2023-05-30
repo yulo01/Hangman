@@ -96,3 +96,8 @@
     text-align: center;
     margin-left: 25px;
 }
+
+.word {
+    font-size: 30px;
+    letter-spacing: 10px;
+}
