@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/chamoxrchobana/static/css/main.ef6029fe.css",
-    "main.js": "/chamoxrchobana/static/js/main.21d3d8f4.js",
+    "main.css": "/chamoxrchobana/static/css/main.a26a02c7.css",
+    "main.js": "/chamoxrchobana/static/js/main.966b8198.js",
     "static/js/787.0c3f432a.chunk.js": "/chamoxrchobana/static/js/787.0c3f432a.chunk.js",
     "static/media/game-background.jpg": "/chamoxrchobana/static/media/game-background.431e8c33e63f75e4d104.jpg",
     "static/media/background.jpg": "/chamoxrchobana/static/media/background.ca0158e3e9bfce88568b.jpg",
+    "static/media/win.jpg": "/chamoxrchobana/static/media/win.03078302a37156f64e9c.jpg",
+    "static/media/death.jpg": "/chamoxrchobana/static/media/death.ad55f3ed3d8651fac5e8.jpg",
     "static/media/close-icon.png": "/chamoxrchobana/static/media/close-icon.0bcb8ef7d171750b0564.png",
     "index.html": "/chamoxrchobana/index.html",
-    "main.ef6029fe.css.map": "/chamoxrchobana/static/css/main.ef6029fe.css.map",
-    "main.21d3d8f4.js.map": "/chamoxrchobana/static/js/main.21d3d8f4.js.map",
+    "main.a26a02c7.css.map": "/chamoxrchobana/static/css/main.a26a02c7.css.map",
+    "main.966b8198.js.map": "/chamoxrchobana/static/js/main.966b8198.js.map",
     "787.0c3f432a.chunk.js.map": "/chamoxrchobana/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef6029fe.css",
-    "static/js/main.21d3d8f4.js"
+    "static/css/main.a26a02c7.css",
+    "static/js/main.966b8198.js"
   ]
 }
