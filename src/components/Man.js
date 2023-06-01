@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Lost from './Lost'
+import { Link } from 'react-router-dom';
 
 function Man({ incorrectGuesses }) {
   const canvasRef = useRef(null);
@@ -13,7 +14,7 @@ function Man({ incorrectGuesses }) {
 
     // Draw the rope
     const ropeStartX = 100;
-    const ropeStartY = 10;
+    const ropeStartY = -20;
     const ropeEndX = 100;
     const ropeEndY = 20;
     context.beginPath();
@@ -37,7 +38,7 @@ function Man({ incorrectGuesses }) {
         const bodyStartX = 100;
         const bodyStartY = 60;
         const bodyEndX = 100;
-        const bodyEndY = 120;
+        const bodyEndY = 110;
         context.beginPath();
         context.moveTo(bodyStartX, bodyStartY);
         context.lineTo(bodyEndX, bodyEndY);
@@ -71,7 +72,7 @@ function Man({ incorrectGuesses }) {
       // Draw the left leg (reversed and elevated)
       if (incorrectGuesses.length >= 5) {
         const leftLegStartX = 90;
-        const leftLegStartY = 130;
+        const leftLegStartY = 150;
         const leftLegEndX = 100;
         const leftLegEndY = 110;
         context.beginPath();
@@ -83,7 +84,7 @@ function Man({ incorrectGuesses }) {
       // Draw the right leg (reversed and elevated)
       if (incorrectGuesses.length >= 6) {
         const rightLegStartX = 110;
-        const rightLegStartY = 130;
+        const rightLegStartY = 150;
         const rightLegEndX = 100;
         const rightLegEndY = 110;
         context.beginPath();
@@ -93,6 +94,9 @@ function Man({ incorrectGuesses }) {
 
             // Player lost the game
             console.log("You lost, geek");
+            window.location.href = "/lost"
+
+           
           
       }
     }

@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/chamoxrchobana" element={<Home />} />
           <Route path="/game" element={<Game />} />
+          <Route path="/lost" element={<Lost />} />
         </Routes>
       </Router>
     </div>

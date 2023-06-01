@@ -26,9 +26,9 @@ function Game() {
       setIncorrectGuesses([...incorrectGuesses, letter]);
       console.log(`This is the wrong letter: ${letter}`);
 
-      if (incorrectGuesses.length + 1 >= maxMistakes) {
-        console.log('You lost');
-      }
+     
+
+     
     }
   };
 
