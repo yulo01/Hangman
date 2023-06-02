@@ -2,7 +2,6 @@
 <h2> This is a game where you have to guess the words </h2>
 <h1>Live: https://yulo01.github.io/chamoxrchobana/ </h1>
 
-#Hangman Game
 
 ![image](https://github.com/yulo01/chamoxrchobana/assets/93291077/3517ab90-ceb7-463e-8301-767f4381d647)
 
