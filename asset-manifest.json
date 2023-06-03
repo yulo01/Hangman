@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chamoxrchobana/static/css/main.a26a02c7.css",
-    "main.js": "/chamoxrchobana/static/js/main.966b8198.js",
+    "main.js": "/chamoxrchobana/static/js/main.16857422.js",
     "static/js/787.0c3f432a.chunk.js": "/chamoxrchobana/static/js/787.0c3f432a.chunk.js",
     "static/media/game-background.jpg": "/chamoxrchobana/static/media/game-background.431e8c33e63f75e4d104.jpg",
     "static/media/background.jpg": "/chamoxrchobana/static/media/background.ca0158e3e9bfce88568b.jpg",
@@ -10,11 +10,11 @@
     "static/media/close-icon.png": "/chamoxrchobana/static/media/close-icon.0bcb8ef7d171750b0564.png",
     "index.html": "/chamoxrchobana/index.html",
     "main.a26a02c7.css.map": "/chamoxrchobana/static/css/main.a26a02c7.css.map",
-    "main.966b8198.js.map": "/chamoxrchobana/static/js/main.966b8198.js.map",
+    "main.16857422.js.map": "/chamoxrchobana/static/js/main.16857422.js.map",
     "787.0c3f432a.chunk.js.map": "/chamoxrchobana/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a26a02c7.css",
-    "static/js/main.966b8198.js"
+    "static/js/main.16857422.js"
   ]
 }
