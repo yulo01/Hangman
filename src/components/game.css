@@ -101,3 +101,35 @@
     font-size: 30px;
     letter-spacing: 10px;
 }
+
+@media(max-width: 850px) {
+    .button-aso {
+        width: 50px;
+    }
+    .word {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 650px) {
+    .button-aso {
+        width: 50px;
+        height: 60px;
+        font-size: 18px;
+    }
+    .hint-guessing {
+        font-size: 20px;
+        margin-left: 60px;
+    }
+}
+
+@media(max-width: 500px) {
+    .button-aso {
+        width: 35px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .buttons {
+        margin-top: 10px;
+    }
+}

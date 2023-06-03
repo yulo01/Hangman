@@ -24,7 +24,7 @@ export default function Home() {
           <div className="home-buttons">
             <div className='change-component'>
               <Link to="/Game">
-                <button className='button'>დაიწყე თამაში</button>
+                <button className='button'>დაიწყე</button>
               </Link>
             </div>
             <button onClick={toggleRules} className='rules-btn'>წესები</button>

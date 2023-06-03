@@ -7,17 +7,35 @@ import Lost from './Lost'
 
 
 
+var letterCount = 0
 function Game() {
+
+  // თუ სიტყვას შეცვლი ქვემოთ 25–ე ხაზზე სიტყვის letterCount მოგების რაოდენობაც შეცვალე
+
   const [word, setWord] = useState('ბათუმი');
   const [guessedWord, setGuessedWord] = useState(Array(word.length).fill('_'));
   const [incorrectGuesses, setIncorrectGuesses] = useState([]);
   const maxMistakes = 5;
+  
 
   const handleGuess = (letter) => {
     if (word.includes(letter)) {
       const updatedWord = word.split('').map((char, index) => {
         if (char === letter) {
-          return letter;
+           letterCount = letterCount + 1
+          console.log("right letter " + letter )
+
+          if(letterCount == 6){
+            console.log('moige kleo');
+
+            window.location.href = "/win"
+            
+          }
+          else{
+            return letter;
+          }
+          
+          
         }
         return guessedWord[index];
       });
@@ -36,6 +54,7 @@ function Game() {
     return guessedWord.map((letter, index) => (
       <span key={index} className="letter">
         {letter}
+        
       </span>
     ));
   };
@@ -161,7 +180,7 @@ function Game() {
 
         <div className="change-component">
           <Link to="/chamoxrchobana">
-            <button className="button">Back</button>
+            <button className="button">დაბრუნება</button>
           </Link>
         </div>
       </div>

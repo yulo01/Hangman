@@ -17,7 +17,7 @@ p {
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .close-icon {
@@ -30,4 +30,24 @@ p {
     right: 20px;
     border: none;
     background: none;
+}
+
+
+/* ///////////////////////// responsive */
+
+@media (max-width: 650px) {
+    .Rules {
+        width: 70%;
+        bottom: 70px;
+    }
+    .close-icon {
+        width: 20px;
+    }
+}
+
+@media(max-width: 480px) {
+    p {
+        font-size: 16px;
+        margin: 30px
+    }
 }

@@ -1,7 +1,30 @@
 import React from 'react'
+import './lost.css'
+import Home from './Home'
+import deathImg from '../assets/death.jpg';
+import { Link } from 'react-router-dom';
 
-export default function Lost() {
+ function Lost(props) {
   return (
-    <div>geeeeeeeeeeeeeeeeeeeeeeeeeeeeeek</div>
+    <div className='Lost'>
+
+    <div className="backgr-img">
+        <img className='death-background' src={deathImg} alt="background-img" />
+    </div>
+
+      <div className='lost-interface'>
+        <h1 className='lost-header'>სამწუხაროდ წააგე, სიტყვა ვერ გამოიცანი</h1>
+
+        <div className="change-component">
+          <Link to="/game">
+            <button className="button">სცადე</button>
+          </Link>
+        </div>
+     </div>
+
+      </div>
+   
   )
 }
+
+export default Lost;

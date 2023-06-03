@@ -1,0 +1,24 @@
+.button-win {
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #059118;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.button-win:hover {
+    background-color: #025f0f;
+}
+
+.button-win:active {
+    background-color: #7cf18b;
+}

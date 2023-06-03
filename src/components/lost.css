@@ -1,0 +1,24 @@
+.Lost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lost-interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.death-background {
+    width: 100%;
+}
+
+.lost-header {
+    width: 70%;
+}

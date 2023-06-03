@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Game from './components/Game';
 import Home from './components/Home';
 import Lost from './components/Lost'
+import Win from './components/Win'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path="/chamoxrchobana" element={<Home />} />
           <Route path="/game" element={<Game />} />
           <Route path="/lost" element={<Lost />} />
+          <Route path="/win" element={<Win />} />
         </Routes>
       </Router>
     </div>
