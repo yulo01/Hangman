@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import backgroundImg from '../assets/background.jpg';
 import './home.css';
 import Rules from './Rules';
+import Win from './Win'
+
 
 export default function Home() {
   const [showRules, setShowRules] = useState(false);
@@ -20,10 +22,11 @@ export default function Home() {
       <div className="Home">
         <div className="home-inner">
           <h1 className='header'>ჩამოხრჩობანა</h1>
+          
           {showRules && <Rules onClose={toggleRules} />}
           <div className="home-buttons">
             <div className='change-component'>
-              <Link to="/Game">
+              <Link to="/Hangman/Game">
                 <button className='button'>დაიწყე</button>
               </Link>
             </div>

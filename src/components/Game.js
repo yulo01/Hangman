@@ -26,9 +26,11 @@ function Game() {
           console.log("right letter " + letter )
 
           if(letterCount == 6){
-            console.log('moige kleo');
+            console.log('moige');
 
-            window.location.href = "/win"
+            // window.location.href = "/win"
+            window.location.assign('/Hangman/win');
+
             
           }
           else{
@@ -179,7 +181,7 @@ function Game() {
         </div>
 
         <div className="change-component">
-          <Link to="/chamoxrchobana">
+          <Link to="/Hangman">
             <button className="button">დაბრუნება</button>
           </Link>
         </div>

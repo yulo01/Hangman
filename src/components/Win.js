@@ -16,7 +16,7 @@ import './win.css'
         <h1 className='lost-header'>გილოცავ მოგებას, შენ სიტყვა გამოიცანი!</h1>
 
         <div className="change-component">
-          <Link to="/game">
+          <Link to="/Hangman/game">
             <button className="button-win">კიდევ ითამაშე</button>
           </Link>
         </div>

@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
         <h1 className='lost-header'>სამწუხაროდ წააგე, სიტყვა ვერ გამოიცანი</h1>
 
         <div className="change-component">
-          <Link to="/game">
+        <Link to="/Hangman/game">
             <button className="button">სცადე</button>
           </Link>
         </div>

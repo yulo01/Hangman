@@ -94,7 +94,9 @@ function Man({ incorrectGuesses }) {
 
                 // Player lost the game
                 console.log("You lost, geek");
-                window.location.href = "/lost"
+                // window.location.href = "/lost"
+                window.location.assign('/Hangman/lost');
+
 
 
 
