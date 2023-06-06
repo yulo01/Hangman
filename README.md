@@ -10,4 +10,4 @@
   <ul>
 <ul>
 
-<h2>This project is created using React, a popular JavaScript library for building user interfaces. </h2>
+<h2>This project is created using React, a popular JavaScript library, for building user interfaces. </h2>
