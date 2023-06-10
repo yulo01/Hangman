@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Hangman/static/css/main.b9d92198.css",
-    "main.js": "/Hangman/static/js/main.d0629ca3.js",
-    "static/js/787.0c3f432a.chunk.js": "/Hangman/static/js/787.0c3f432a.chunk.js",
-    "static/media/game-background.jpg": "/Hangman/static/media/game-background.431e8c33e63f75e4d104.jpg",
-    "static/media/background.jpg": "/Hangman/static/media/background.ca0158e3e9bfce88568b.jpg",
-    "static/media/win.jpg": "/Hangman/static/media/win.03078302a37156f64e9c.jpg",
-    "static/media/death.jpg": "/Hangman/static/media/death.ad55f3ed3d8651fac5e8.jpg",
-    "static/media/close-icon.png": "/Hangman/static/media/close-icon.0bcb8ef7d171750b0564.png",
-    "index.html": "/Hangman/index.html",
-    "main.b9d92198.css.map": "/Hangman/static/css/main.b9d92198.css.map",
-    "main.d0629ca3.js.map": "/Hangman/static/js/main.d0629ca3.js.map",
-    "787.0c3f432a.chunk.js.map": "/Hangman/static/js/787.0c3f432a.chunk.js.map"
+    "main.css": "/static/css/main.b9d92198.css",
+    "main.js": "/static/js/main.e9608f19.js",
+    "static/js/787.0c3f432a.chunk.js": "/static/js/787.0c3f432a.chunk.js",
+    "static/media/game-background.jpg": "/static/media/game-background.431e8c33e63f75e4d104.jpg",
+    "static/media/background.jpg": "/static/media/background.ca0158e3e9bfce88568b.jpg",
+    "static/media/win.jpg": "/static/media/win.03078302a37156f64e9c.jpg",
+    "static/media/death.jpg": "/static/media/death.ad55f3ed3d8651fac5e8.jpg",
+    "static/media/close-icon.png": "/static/media/close-icon.0bcb8ef7d171750b0564.png",
+    "index.html": "/index.html",
+    "main.b9d92198.css.map": "/static/css/main.b9d92198.css.map",
+    "main.e9608f19.js.map": "/static/js/main.e9608f19.js.map",
+    "787.0c3f432a.chunk.js.map": "/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d92198.css",
-    "static/js/main.d0629ca3.js"
+    "static/js/main.e9608f19.js"
   ]
 }
